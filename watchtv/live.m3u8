@@ -1,190 +1,184 @@
 #EXTM3U
-#EXTINF:-1 group-title="香港台湾直播",三立新闻台
-https://epg.pw/stream/6b49e3faa38adda85abab446f032dc1e686baa0760a9cfa66e2df8fd6fe3b445.m3u8
+#EXTINF:-1 group-title="香港台湾直播",TVB翡翠台
+http://r.jdshipin.com/qClQf
+#EXTINF:-1 group-title="香港台湾直播",八大戏剧台
+http://61.221.215.25:8800/hls/39/index.m3u8
+#EXTINF:-1 group-title="香港台湾直播",三立戏剧
+http://61.221.215.25:8800/hls/41/index.m3u8
+#EXTINF:-1 group-title="香港台湾直播",中视
+http://31.43.191.125:8080/restream/restream/34897
+#EXTINF:-1 group-title="香港台湾直播",民视新闻台
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV17.m3u8
 #EXTINF:-1 group-title="香港台湾直播",东森财经新闻台
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV03.m3u8
+#EXTINF:-1 group-title="香港台湾直播",东森超视
+http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 #EXTINF:-1 group-title="香港台湾直播",纬来精彩台
 http://61.221.215.25:8800/hls/48/index.m3u8
-#EXTINF:-1 group-title="香港台湾直播",HBO
-http://31.43.191.125:8080/restream/restream/34918
+#EXTINF:-1 group-title="香港台湾直播",靖天欢乐台
+http://zby.lskk.top/cdnlive.php?mode=play&id=edfbc25c34a0d10848731f323d77876f&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
+#EXTINF:-1 group-title="香港台湾直播",靖洋戏剧台
+http://31.43.191.125:8080/restream/restream/34833
 #EXTINF:-1 group-title="香港台湾直播",凤凰中文
-http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+http://zmgd.zyrnet.com:8888/hls/110/index.m3u8
 #EXTINF:-1 group-title="香港台湾直播",凤凰资讯
-http://r.jdshipin.com/0Rp07
-#EXTINF:-1 group-title="香港台湾直播",凤凰香港
-http://r.jdshipin.com/NfC0f
+http://zmgd.zyrnet.com:8888/hls/109/index.m3u8
+#EXTINF:-1 group-title="香港台湾直播",凤凰电影
+http://zby.lskk.top/cdnlive.php?mode=play&id=3ea54960d444c5950872b58000eeef4b&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
 #EXTINF:-1 group-title="香港台湾直播",TVBPearl
-http://r.jdshipin.com/ZQ4kN
+http://php.jdshipin.com/TVOD/iptv.php?id=mzt
 #EXTINF:-1 group-title="香港台湾直播",TVBPlus
-http://r.jdshipin.com/Nr5jq
+https://cdn6.cc.cd/163189/tvbp
 #EXTINF:-1 group-title="香港台湾直播",TVB星河
-http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
-#EXTINF:-1 group-title="香港台湾直播",TVB翡翠台
-http://php.jdshipin.com/TVOD/iptv.php?id=fct
-#EXTINF:-1 group-title="香港台湾直播",TVBS
-https://7612-5516-affc-d88b.kylintv.tv/live/tvbshd_iphone.m3u8
+http://r.jdshipin.com/sXuuD
 #EXTINF:-1 group-title="香港台湾直播",TVBS新闻台
-http://zby.lskk.top/cdnlive.php?mode=play&id=f3818c484ecc5469690bbd713c31465d&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
+http://31.43.191.125:8080/restream/restream/34818
 #EXTINF:-1 group-title="香港台湾直播",TVBS亚洲
 http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 #EXTINF:-1 group-title="香港台湾直播",无线新闻
-https://h5cdn3.kylintv.tv/live/tvbnews_iphone.m3u8
+http://php.jdshipin.com/TVOD/iptv.php?id=wxxw
 #EXTINF:-1 group-title="香港台湾直播",ViuTV
-http://php.jdshipin.com/TVOD/iptv.php?id=viutv
-#EXTINF:-1 group-title="香港台湾直播",八大戏剧台
-http://61.221.215.25:8800/hls/39/index.m3u8
+http://php.jdshipin.com/TVOD/iptv.php?id=viutv2
 #EXTINF:-1 group-title="香港台湾直播",八大综合台
 http://zby.lskk.top/cdnlive.php?mode=play&id=57304f1b743cb4299271bd12e5aa967d&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
+#EXTINF:-1 group-title="香港台湾直播",八大综艺台
+http://zby.lskk.top/cdnlive.php?mode=play&id=3831ae147835333a274b639c1fc781f8&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
 #EXTINF:-1 group-title="香港台湾直播",三立台湾台
 http://zby.lskk.top/cdnlive.php?mode=play&id=5bc6e57495b4d08a3ec4fdf5d875d30f&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
-#EXTINF:-1 group-title="香港台湾直播",中天亚洲台
-http://zby.lskk.top/cdnlive.php?mode=play&id=7b9606e7c3a30a73e44bc5f76d3608d6&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
+#EXTINF:-1 group-title="香港台湾直播",三立新闻台
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
 #EXTINF:-1 group-title="香港台湾直播",中天新闻台
 http://zby.lskk.top/cdnlive.php?mode=play&id=4a789f0e146848bda0dee842cba28533&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
 #EXTINF:-1 group-title="香港台湾直播",中天综合台
-http://zby.lskk.top/cdnlive.php?mode=play&id=3525e2a679703119d442a9fe629faeee&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
-#EXTINF:-1 group-title="香港台湾直播",中视
-http://zby.lskk.top/cdnlive.php?mode=play&id=8ce4f7f396a14b5f0d5489053ab6c535&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
+http://zby.lskk.top/cdnlive.php?mode=play&id=c0331d87d7f452e2b16f03a3b0a2b267&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
 #EXTINF:-1 group-title="香港台湾直播",中视新闻
 http://zby.lskk.top/cdnlive.php?mode=play&id=37aac0d83374389325d4b3e1e9b8f9b7&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
 #EXTINF:-1 group-title="香港台湾直播",中视经典
 http://zby.lskk.top/cdnlive.php?mode=play&id=ccc494fbbbf9a526ffe5dfa40aa86e1d&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
-#EXTINF:-1 group-title="香港台湾直播",民视
-http://zby.lskk.top/cdnlive.php?mode=play&id=1f5cb7f8687ab60efbdb4cb4190d355b&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
-#EXTINF:-1 group-title="香港台湾直播",民视台湾台
-http://zby.lskk.top/cdnlive.php?mode=play&id=33ff2e131e511e896174ecbd0f45bed9&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
+#EXTINF:-1 group-title="香港台湾直播",中视菁采台
+http://zby.lskk.top/cdnlive.php?mode=play&id=becfc1b619191c8f324907067c1acd13&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
 #EXTINF:-1 group-title="香港台湾直播",民视影剧台
 http://zby.lskk.top/cdnlive.php?mode=play&id=744de097f81d15478300732b8a640ae3&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
-#EXTINF:-1 group-title="香港台湾直播",民视新闻台
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV17.m3u8
 #EXTINF:-1 group-title="香港台湾直播",民视旅游台
 http://zby.lskk.top/cdnlive.php?mode=play&id=73c20b6f33eefacf760556a87753bb24&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
+#EXTINF:-1 group-title="香港台湾直播",民视第一台
+http://zby.lskk.top/cdnlive.php?mode=play&id=b76755690d6750fa94321fcbfed67464&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
 #EXTINF:-1 group-title="香港台湾直播",民视综艺台
 http://zby.lskk.top/cdnlive.php?mode=play&id=04079f48cbe86ce355ebdd255a715460&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
 #EXTINF:-1 group-title="香港台湾直播",公视
-http://zby.lskk.top/cdnlive.php?mode=play&id=960f72324544843971737b7010bebdd5&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
+http://31.43.191.125:8080/restream/restream/34891
+#EXTINF:-1 group-title="香港台湾直播",公视戏剧
+http://zby.lskk.top/cdnlive.php?mode=play&id=d48208e1bde7acb7cb7cf7d09dc9f30c&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
+#EXTINF:-1 group-title="香港台湾直播",东森幼幼台
+http://zby.lskk.top/cdnlive.php?mode=play&id=70905dac749b7d3fa4c7e4858f0a470f&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
 #EXTINF:-1 group-title="香港台湾直播",东森新闻台
 http://zby.lskk.top/cdnlive.php?mode=play&id=4a80586d55204ad1d9a0e7a0b8066fac&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
 #EXTINF:-1 group-title="香港台湾直播",东森洋片台
-http://31.43.191.125:8080/restream/restream/34813
+http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34904
 #EXTINF:-1 group-title="香港台湾直播",东森综合台
 http://zby.lskk.top/cdnlive.php?mode=play&id=d8addab13f0194673777b66628b99461&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
-#EXTINF:-1 group-title="香港台湾直播",东森超视
-http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 #EXTINF:-1 group-title="香港台湾直播",华视
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV12.m3u8
-#EXTINF:-1 group-title="香港台湾直播",华视新闻
-http://zby.lskk.top/cdnlive.php?mode=play&id=f33de20f378bbcb4bbd1cc681a50458b&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
 #EXTINF:-1 group-title="香港台湾直播",华艺中文台
 http://zby.lskk.top/cdnlive.php?mode=play&id=e8eb9214c16eaa4dbd974727e4c8b160&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
 #EXTINF:-1 group-title="香港台湾直播",纬来体育台
-https://hlsz.yjjcfw.com/live/vl.m3u8?expire=1786948372&sign=2e4a56b89fe644db147552011f972714
+https://epg.pw/stream/8855a9936e37e608a0ec8a014cce1673dee9c5d68d560da376cc92e5edef2b25.m3u8
 #EXTINF:-1 group-title="香港台湾直播",纬来戏剧台
-http://31.43.191.125:8080/restream/restream/34854
+http://31.43.191.125:8080/restream/restream/34812
 #EXTINF:-1 group-title="香港台湾直播",纬来日本台
 http://31.43.191.125:8080/restream/restream/34853
-#EXTINF:-1 group-title="香港台湾直播",纬来电影台
-http://31.43.191.125:8080/restream/restream/34811
 #EXTINF:-1 group-title="香港台湾直播",纬来综合台
-http://31.43.191.125:8080/restream/restream/34850
+http://zby.lskk.top/cdnlive.php?mode=play&id=ec3baf9a66ce98433f6710f9527c3045&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
 #EXTINF:-1 group-title="香港台湾直播",纬来育乐台
-http://31.43.191.125:8080/restream/restream/34808
+http://31.43.191.125:8080/restream/restream/34849
 #EXTINF:-1 group-title="香港台湾直播",靖天卡通台
-http://zby.lskk.top/cdnlive.php?mode=play&id=7121f93baf03c143dc88fcbe35b332e3&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
+http://31.43.191.125:8080/restream/restream/34842
 #EXTINF:-1 group-title="香港台湾直播",靖天国际
-http://31.43.191.125:8080/restream/restream/34841
+http://zby.lskk.top/cdnlive.php?mode=play&id=c5f820f0a624e3a1d98fab34e3d2360f&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
 #EXTINF:-1 group-title="香港台湾直播",靖天戏剧台
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv058&token=https://t.me/GPT_858
-#EXTINF:-1 group-title="香港台湾直播",靖天日本台
-http://litv.zapi.us.kg/?id=4gtv-4gtv047
+http://31.43.191.125:8080/restream/restream/34840
 #EXTINF:-1 group-title="香港台湾直播",靖天映画
-http://litv.zapi.us.kg/?id=4gtv-4gtv055
-#EXTINF:-1 group-title="香港台湾直播",靖天欢乐台
-http://litv.zapi.us.kg/?id=4gtv-4gtv054
+http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34838
 #EXTINF:-1 group-title="香港台湾直播",靖天电影台
 http://zby.lskk.top/cdnlive.php?mode=play&id=f61adc3051393878503f5c0e6baa5983&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
-#EXTINF:-1 group-title="香港台湾直播",靖天综合台
-http://litv.zapi.us.kg/?id=4gtv-4gtv046
 #EXTINF:-1 group-title="香港台湾直播",靖天育乐台
-http://zby.lskk.top/cdnlive.php?mode=play&id=2838d50de5d50d2e46ba88589f494bc7&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
+http://31.43.191.125:8080/restream/restream/34835
 #EXTINF:-1 group-title="香港台湾直播",靖天资讯台
 https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv065&token=https://t.me/GPT_858
 #EXTINF:-1 group-title="香港台湾直播",靖洋卡通台
-http://zby.lskk.top/cdnlive.php?mode=play&id=9e748e7e875da07f562ded22bfa5e1b2&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
+http://31.43.191.125:8080/restream/restream/34834
 #EXTINF:-1 group-title="香港台湾直播",龙华偶像
-http://31.43.191.125:8080/restream/restream/34830
+https://8.fast.hidns.vip/163189/lhox
 #EXTINF:-1 group-title="香港台湾直播",龙华戏剧
 http://zby.lskk.top/cdnlive.php?mode=play&id=c47a015df8a7d023b2aeb8e8ede6be2b&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
 #EXTINF:-1 group-title="香港台湾直播",龙华洋片
 https://8.fast.hidns.vip/163189/lhyp
 #EXTINF:-1 group-title="香港台湾直播",龙华电影
-http://37.27.111.214:8080/live/19/hls.m3u8
+https://8.fast.hidns.vip/163189/lhdy
 #EXTINF:-1 group-title="香港台湾直播",龙华经典
-https://8.fast.hidns.vip/163189/lhjd
+http://31.43.191.125:8080/restream/restream/34826
 #EXTINF:-1 group-title="香港台湾直播",台视
-http://31.43.191.125:8080/restream/restream/34879
-#EXTINF:-1 group-title="SH央视频道",高尔夫网球
-http://104.152.209.49:8181/720p/gefwq.m3u8
+http://zby.lskk.top/cdnlive.php?mode=play&id=d1a92e4301097a73f284a279fcf4afbc&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
+#EXTINF:-1 group-title="香港台湾直播",HBO
+http://31.43.191.125:8080/restream/restream/34918
+#EXTINF:-1 group-title="SH央视频道",风云足球
+http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
 #EXTINF:-1 group-title="SH央视频道",卫生健康
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=wsjk
-#EXTINF:-1 group-title="SH央视频道",老故事
-http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctvlaogushi/50/20231109/index.m3u8?msisdn=202610190602580f0c722aeb0a4962bdf43afd99eb696b&mdspid=&spid=699004&netType=0&sid=5910022002&pid=2028597139&timestamp=20261019060258&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=884121956&ParentNodeID=-99&assertID=5910022002&client_ip=171.8.79.254&SecurityKey=20261019060258&promotionId=&mvid=5900006372&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=02e0375c3898c329cbbabd18aa8d0701
-#EXTINF:-1 group-title="SH央视频道",CCTV1
-http://173.208.212.130:8181/720p/cctv1.m3u8
 #EXTINF:-1 group-title="SH央视频道",CCTV2
-http://173.208.234.146/live/cctv2.m3u8
+http://107.150.60.122/live/cctv2hd.m3u8
 #EXTINF:-1 group-title="SH央视频道",CCTV3
-http://120.198.95.220:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&down=1
-#EXTINF:-1 group-title="SH央视频道",CCTV4
-http://207.56.13.146:81/cdnlive/cctv4.m3u8
-#EXTINF:-1 group-title="SH央视频道",CCTV6
-http://120.198.95.220:9901/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&down=1
+https://player.cntv.cn/standard/live_HLSDRM20180524.swf?tai=cctv3&ChannelID=cctv3&videoTVChannel=cctv3&P2PChannelID=pd://cctv_p2p_cctv3
 #EXTINF:-1 group-title="SH央视频道",CCTV7
-http://120.198.95.220:9901/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&down=1
+http://124.228.160.112:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="SH央视频道",CCTV8
-http://69.30.245.50/live/cctv8.m3u8
+https://player.cntv.cn/standard/live_HLSDRM20180524.swf?tai=cctv8&ChannelID=cctv8&videoTVChannel=cctv8&P2PChannelID=pd://cctv_p2p_cctv8
 #EXTINF:-1 group-title="SH央视频道",CCTV9
-http://player.cntv.cn/standard/live_HLSDRM20180606.swf?v=180.171.5.8.9.6.3.9&vdnSID=&vdnIP=&vdnCountryCode=&vdnProvinceCode=&vdnCityCode=&vdnISPCode=&tai=cctvjilu&ChannelID=cctvjilu&videoTVChannel=cctvjilu&P2PChannelID=pd://cctv_p2p_cctvjilu
+http://124.228.160.112:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="SH央视频道",CCTV10
-http://74.91.26.218:82/live/cctv10hd.m3u8
+http://69.30.245.50/live/cctv10.m3u8
 #EXTINF:-1 group-title="SH央视频道",CCTV11
-http://player.cntv.cn/standard/live_HLSDRM20180919.swf?v=180.171.5.8.9.6.3.9&ChannelID=cctv11&videoTVChannel=cctv11&P2PChannelID=pd://cctv_p2p_cctv11&tai=cctv11&VideoName=cctv11&channelID=cctv11
+http://113.57.140.161:10081/newlive/live/hls/12/live.m3u8
 #EXTINF:-1 group-title="SH央视频道",CCTV12
-http://player.cntv.cn/standard/live_HLSDRM20180606.swf?v=180.171.5.8.9.6.3.9&vdnSID=&vdnIP=&vdnCountryCode=&vdnProvinceCode=&vdnCityCode=&vdnISPCode=&tai=cctv12&ChannelID=cctv12&videoTVChannel=cctv12&P2PChannelID=pd://cctv_p2p_cctv12
+http://107.150.60.122/live/cctv12hd.m3u8
 #EXTINF:-1 group-title="SH央视频道",CCTV13
 https://event.pull.hebtv.com/jishi/cp1.m3u8
 #EXTINF:-1 group-title="SH央视频道",CCTV14
 https://event.pull.hebtv.com/jishi/cp2.m3u8
-#EXTINF:-1 group-title="SH央视频道",CCTV16
-https://piccpndali.v.myalicdn.com/audio/cctv16_2.m3u8
-#EXTINF:-1 group-title="SH央视频道",CCTV17
-https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 group-title="SH央视频道",女性时尚
-http://38.75.136.137:98/gslb/dsdqpub/nxss.m3u8?auth=testpub
-#EXTINF:-1 group-title="SH央视频道",CCTV5
-http://107.150.60.122/live/cctv5hd.m3u8
 #EXTINF:-1 group-title="SH央视频道",CCTV15
 https://xykt-fix.github.io/play/a02e/index.m3u8
+#EXTINF:-1 group-title="SH央视频道",CCTV16
+http://113.57.140.161:10081/newlive/live/hls/17/live.m3u8
+#EXTINF:-1 group-title="SH央视频道",CCTV17
+http://player.cntv.cn/standard/live_HLSDRM20180524.swf?v=180.171.5.8.9.6.3.9&ChannelID=cctv17&videoTVChannel=cctv17&P2PChannelID=pd://cctv_p2p_cctv17&tai=cctv1&VideoName=cctv1&channelID=cctv17
+#EXTINF:-1 group-title="SH央视频道",CCTV4
+http://player.cntv.cn/standard/live_HLSDRM20180524.swf?v=180.171.5.8.9.6.3.9&ChannelID=cctveurope&videoTVChannel=cctveurope&P2PChannelID=pd://cctv_p2p_cctveurope&tai=cctv1&VideoName=cctv1&channelID=cctveurope
+#EXTINF:-1 group-title="SH央视频道",CCTV5
+http://107.150.60.122/live/cctv5hd.m3u8
 #EXTINF:-1 group-title="SH央视频道",风云剧场
 https://live.264788.xyz/channel/fengyunjuchang?streamid=31e7b5b7032d25dd215a4069cdee1a48&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 group-title="SH央视频道",兵器科技
 https://live.264788.xyz/channel/bingqikeji?streamid=6fc55a0966bdad1e1cdf39a4d37dd776&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 group-title="SH央视频道",第一剧场
-http://107.150.60.122/live/dyjc.m3u8
+https://live.264788.xyz/channel/diyijuchang?streamid=e9b0fb1ca135a4aeae12944494883794&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 group-title="SH央视频道",央视台球
-http://107.150.60.122/live/ystq.m3u8
-#EXTINF:-1 group-title="SH央视频道",风云足球
-http://120.76.248.139/live/bfgd/4200000225.m3u8
+http://183.11.239.36:808/hls/73/index.m3u8
+#EXTINF:-1 group-title="SH央视频道",高尔夫网球
+http://104.152.209.49:8181/720p/gefwq.m3u8
 #EXTINF:-1 group-title="SH央视频道",世界地理
 http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
 #EXTINF:-1 group-title="SH央视频道",风云音乐
-https://live.264788.xyz/channel/fengyunyinyue?streamid=be37d16b874e7ba11dd383d7ecd75752&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+https://live.264788.xyz/channel/fengyunyinyue?streamid=1b41fb9153cba3ee19bd5d1b323da27e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+#EXTINF:-1 group-title="SH央视频道",女性时尚
+http://119.129.172.98:9901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="SH央视频道",怀旧剧场
 https://live.264788.xyz/channel/huaijiujuchang?streamid=7e5d1abdddde08f588234f3f640f75ff&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 group-title="SH央视频道",央视文化精品
-http://183.11.239.36:808/hls/97/index.m3u8
 #EXTINF:-1 group-title="SH央视频道",电视指南
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=dszn
+http://183.11.239.36:808/hls/13/index.m3u8
+#EXTINF:-1 group-title="SH央视频道",老故事
+http://183.11.239.36:808/hls/26/index.m3u8
+#EXTINF:-1 group-title="SH央视频道",发现之旅
+http://112.103.141.175:1234/624878970
 #EXTINF:-1 group-title="SH央视频道",CCTV4K
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1792144800-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-168410e6eb705a726c975a74efb0f232&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 #EXTINF:-1 group-title="SH央视频道",CETV1
@@ -192,21 +186,19 @@ http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv1&videoTVCh
 #EXTINF:-1 group-title="SH央视频道",CETV2
 http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv2&videoTVChannel=cetv2&P2PChannelID=pd://cctv_p2p_hdcetv2&tai=cetv2&VideoName=cetv2&channelID=cetv2
 #EXTINF:-1 group-title="SH央视频道",CETV3
-http://kkk.888.3116598.xyz/api.php?n=tttt&id=s067jF&tk=FgM0vQMejxvG
+https://vip.taoiptv.cn/source/jsyd.php?id=G_CETV-3.m3u8&sign=mzxn4l
 #EXTINF:-1 group-title="SH央视频道",CETV4
 http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv4&videoTVChannel=cetv4&P2PChannelID=pd://cctv_p2p_hdcetv4&tai=cetv4&VideoName=cetv4&channelID=cetv4
-#EXTINF:-1 group-title="SH卫视频道",天津卫视
-http://38.75.136.137:98/gslb/dsdqpub/tjwshd.m3u8?auth=testpub
-#EXTINF:-1 group-title="SH卫视频道",浙江卫视
-http://player.cntv.cn/standard/live_HLSDRM20180606.swf?ChannelID=zhejiang&P2PChannelID=pd://cctv_p2p_zhejiang
-#EXTINF:-1 group-title="SH卫视频道",延边卫视
-https://srs.iyb983.cn/video/CYS/index.m3u8
-#EXTINF:-1 group-title="SH卫视频道",青海卫视
-http://107.150.60.122/live/qhws.m3u8
-#EXTINF:-1 group-title="SH卫视频道",康巴卫视
-http://kkk.888.3116598.xyz/api.php?n=tttt&id=slYPRK&tk=FgM0vQMejxvG
-#EXTINF:-1 group-title="SH卫视频道",安多卫视
-https://liveout.xntv.tv/a65jur/96iln2.m3u8
+#EXTINF:-1 group-title="SH卫视频道",山东卫视
+http://204.12.221.218:8181/3m1080p/sdws.m3u8
+#EXTINF:-1 group-title="SH卫视频道",河北卫视
+http://38.75.136.137:98/gslb/dsdqpub/hewshd.m3u8?auth=testpub
+#EXTINF:-1 group-title="SH卫视频道",深圳卫视
+http://124.228.160.112:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="SH卫视频道",辽宁卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226546/index.m3u8
+#EXTINF:-1 group-title="SH卫视频道",重庆卫视
+http://38.75.136.137:98/gslb/dsdqpub/cqwshd.m3u8?auth=testpub
 #EXTINF:-1 group-title="SH卫视频道",农林卫视
 http://120.76.248.139/live/bfgd/4200000122.m3u8
 #EXTINF:-1 group-title="SH卫视频道",北京卫视
@@ -214,64 +206,64 @@ http://107.150.60.122/live/bjwshd.m3u8
 #EXTINF:-1 group-title="SH卫视频道",东方卫视
 http://107.150.60.122/live/dfwshd.m3u8
 #EXTINF:-1 group-title="SH卫视频道",四川卫视
-http://113.25.252.226:9901/tsfile/live/1031_1.m3u8?key=txiptv&playlive=1&authid=0
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226513/index.m3u8
+#EXTINF:-1 group-title="SH卫视频道",天津卫视
+http://36.136.38.87:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="SH卫视频道",安徽卫视
+http://107.150.60.122/live/ahwshd.m3u8
 #EXTINF:-1 group-title="SH卫视频道",广东卫视
 http://107.150.60.122/live/gdwshd.m3u8
 #EXTINF:-1 group-title="SH卫视频道",广西卫视
-http://198.204.228.26/live/gxwshd.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226549/index.m3u8
+#EXTINF:-1 group-title="SH卫视频道",江苏卫视
+http://124.228.160.112:9901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="SH卫视频道",江西卫视
-https://live.264788.xyz/channel/jiangxiweishi?streamid=555198f31caa33506ac6abb70d788959&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 group-title="SH卫视频道",河北卫视
-http://player.cntv.cn/standard/live_HLSDRM20180919.swf?v=180.171.5.8.9.6.3.9&ChannelID=hebei&videoTVChannel=hebei&P2PChannelID=pd://cctv_p2p_hebei&tai=hebei&VideoName=hebei&channelID=hebei
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226504/index.m3u8
 #EXTINF:-1 group-title="SH卫视频道",河南卫视
-http://107.150.60.122/live/hawshd.m3u8
-#EXTINF:-1 group-title="SH卫视频道",深圳卫视
-http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8
+#EXTINF:-1 group-title="SH卫视频道",浙江卫视
+http://124.228.160.112:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="SH卫视频道",湖北卫视
-http://107.150.60.122/live/hbwshd.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226477/index.m3u8
 #EXTINF:-1 group-title="SH卫视频道",山西卫视
-http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
+http://101.66.198.93:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="SH卫视频道",东南卫视
 http://player.cntv.cn/standard/live_HLSDRM20180606.swf?ChannelID=dongnan&P2PChannelID=pd://cctv_p2p_dongnan
 #EXTINF:-1 group-title="SH卫视频道",贵州卫视
-http://107.150.60.122/live/gzwshd.m3u8
-#EXTINF:-1 group-title="SH卫视频道",辽宁卫视
-http://204.12.221.218:8181/3m1080p/lnws.m3u8
-#EXTINF:-1 group-title="SH卫视频道",重庆卫视
-http://222.169.85.8:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
 #EXTINF:-1 group-title="SH卫视频道",黑龙江卫视
-http://107.150.60.122/live/hljwshd.m3u8
-#EXTINF:-1 group-title="SH卫视频道",宁夏卫视
-http://198.204.228.26/live/nxws.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226467/index.m3u8
+#EXTINF:-1 group-title="SH卫视频道",内蒙古卫视
+https://live.264788.xyz/channel/neimengguweishi?streamid=81a015dbecf3031d7d847b7a9b059f67&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 group-title="SH卫视频道",陕西卫视
-http://107.150.60.122/live/snwshd.m3u8
+http://120.198.95.220:9901/tsfile/live/1068_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 group-title="SH卫视频道",吉林卫视
-http://player.cntv.cn/standard/live_HLSDRM20180919.swf?v=180.171.5.8.9.6.3.9&ChannelID=jilin&videoTVChannel=jilin&P2PChannelID=pd://cctv_p2p_hdjilin&tai=jilin&VideoName=jilin&channelID=jilin
+http://107.150.60.122/live/jlwshd.m3u8
 #EXTINF:-1 group-title="SH卫视频道",云南卫视
 https://hwapi.yntv.net/ew265l/z1z6s5.m3u8
-#EXTINF:-1 group-title="SH卫视频道",三沙卫视
-http://198.204.228.26/live/ssws.m3u8
+#EXTINF:-1 group-title="SH卫视频道",青海卫视
+http://107.150.60.122/live/qhws.m3u8
 #EXTINF:-1 group-title="SH卫视频道",新疆卫视
-http://107.150.60.122/live/xjws.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226460/index.m3u8
 #EXTINF:-1 group-title="SH卫视频道",西藏卫视
-http://107.150.60.122/live/xzws.m3u8
-#EXTINF:-1 group-title="SH卫视频道",香港卫视
-https://hkstv.tv/api/m3u8-proxy?url=http%3A%2F%2Fwebcast.hkstv.tv%2Flivestream%2Fmutfysrq%2Fplaylist.m3u8
+http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="SH卫视频道",延边卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226516/index.m3u8
 #EXTINF:-1 group-title="SH卫视频道",湖南卫视
 http://107.150.60.122/live/hnwshd.m3u8
-#EXTINF:-1 group-title="SH卫视频道",江苏卫视
-http://204.12.221.218:8181/3m1080p/jsws.m3u8
-#EXTINF:-1 group-title="SH卫视频道",安徽卫视
-http://104.152.209.49:8181/720p/ahws.m3u8
+#EXTINF:-1 group-title="SH卫视频道",海南卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
 #EXTINF:-1 group-title="SH卫视频道",厦门卫视
-http://107.150.60.122/live/xmws.m3u8
-#EXTINF:-1 group-title="SH卫视频道",山东卫视
-http://198.204.228.26/live/sdwshd.m3u8
+http://198.204.228.26/live/xmws.m3u8
+#EXTINF:-1 group-title="SH卫视频道",宁夏卫视
+https://live.264788.xyz/channel/ningxiaweishi?streamid=1b2952717a920173e66d4a348f9dcb5c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 group-title="SH卫视频道",甘肃卫视
-http://kkk.888.3116598.xyz/api.php?n=tttt&id=BNB8JW&tk=FgM0vQMejxvG
-#EXTINF:-1 group-title="SH卫视频道",内蒙古卫视
-https://live.264788.xyz/channel/neimengguweishi?streamid=3e7340acf8869ac1c7dad1bb836dcd35&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226522/index.m3u8
+#EXTINF:-1 group-title="SH卫视频道",香港卫视
+http://player.cntv.cn/standard/live_HLSDRM20180606.swf?ChannelID=xianggangweishi&P2PChannelID=pd://cctv_p2p_hdxianggangweishi
+#EXTINF:-1 group-title="SH卫视频道",三沙卫视
+http://107.150.60.122/live/ssws.m3u8
 #EXTINF:-1 group-title="SH卫视频道",大湾区卫视
 http://107.150.60.122/live/nfws.m3u8
 #EXTINF:-1 group-title="SH卫视频道",海峡卫视
-https://10.fast.hidns.vip/163189/hxws/
+https://7612-5516-affc-d88b.kylintv.tv/live/fjstv_iphone.m3u8
