@@ -3,8 +3,8 @@ import re
 import os
 # ========== 填写源的地址 ==========
 URL_LIST = [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/XU-Boqing/iptv-dedup/refs/heads/main/live_lite_dedup_720p.m3u",
-    "https://gh-proxy.com/https://raw.githubusercontent.com/XU-Boqing/iptv-dedup/refs/heads/main/live_lite_dedup.m3u",
+    "https://raw.githubusercontent.com/XU-Boqing/iptv-dedup/refs/heads/main/live_lite_dedup_720p.m3u",
+    "https://raw.githubusercontent.com/XU-Boqing/iptv-dedup/refs/heads/main/live_lite_dedup.m3u",
   
     
 ]
