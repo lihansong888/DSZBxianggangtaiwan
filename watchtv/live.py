@@ -5,23 +5,24 @@ import os
 URL_LIST = [
     "https://raw.githubusercontent.com/XU-Boqing/iptv-dedup/refs/heads/main/live_lite_dedup_720p.m3u",
     "https://raw.githubusercontent.com/XU-Boqing/iptv-dedup/refs/heads/main/live_lite_dedup.m3u",
-  
-    
 ]
+# 新增4gtv接口地址
+URL_4GTV = "https://raw.githubusercontent.com/judy-gotv/iptv/refs/heads/main/4gtv.m3u"
+
 # ========== 分组映射：左边是源里的分组名，右边是输出时改后的分组名 ==========
 GROUP_MAP = {
     "港澳台": "香港台湾直播",
   # ========== 上面为720P获取的频道 ==========
-  "央视频道": "SH央视频道",
-  "卫视频道": "SH卫视频道",
-    
+    "央视频道": "SH央视频道",
+    "卫视频道": "SH卫视频道",
 }
+GROUP_NAME_4GTV = "4gtv直播"
+
 # ========== 说明：原存活检测已停用 ==========
 # GitHub Actions 服务器在美国，访问国内直播源超时/抖动严重，
 # HEAD/GET 粗筛会把大量国内可用源误杀（且并发2+重试2次又慢又耗Action额度）。
 # 存活筛选全部交给宝塔端（国内、100并发、5~6秒阈值、一天2次），
 # 本仓库只负责：拉取上游源 -> 分组映射 -> 合并去重 -> 输出全量 live.m3u8。
-
 def parse_any(text: str):
     res = []
     extinf_line = None
@@ -50,22 +51,22 @@ def parse_any(text: str):
                 fake_ext = f'#EXTINF:-1,{name_part}'
             res.append((fake_ext, url_part))
     return res
-
 def get_channel_name(extinf):
     if "," in extinf:
         return extinf.split(",")[-1].strip()
     return ""
-
 def get_group_title(extinf):
     m = re.search(r'group-title="([^"]+)"', extinf)
     if m:
         return m.group(1).strip()
     return ""
-
 def main():
-    # 用改后的分组名初始化空列表
+    # 用改后的分组名初始化空列表，额外加入4gtv分组
     group_bucket = {v: [] for v in GROUP_MAP.values()}
+    group_bucket[GROUP_NAME_4GTV] = []
     seen = set()
+
+    # 处理原有两个源（走分组匹配过滤）
     for url in URL_LIST:
         try:
             resp = requests.get(url, timeout=15)
@@ -86,12 +87,26 @@ def main():
         except Exception as e:
             print(f"⚠️ 拉取 {url} 失败：{e}")
 
+    # ====== 单独处理4gtv源：全部频道强制归入【4gtv直播】，不做分组过滤 ======
+    try:
+        resp_4g = requests.get(URL_4GTV, timeout=15)
+        resp_4g.raise_for_status()
+        channels_4g = parse_any(resp_4g.text)
+        for extinf, play_url in channels_4g:
+            ch_name = get_channel_name(extinf)
+            item_key = (ch_name, play_url)
+            if item_key not in seen:
+                seen.add(item_key)
+                group_bucket[GROUP_NAME_4GTV].append((ch_name, play_url))
+        print(f"✅ 4gtv源采集成功")
+    except Exception as e:
+        print(f"⚠️ 拉取4gtv源失败：{e}")
+
     # ========== 存活检测已停用：全部源直接输出，筛选交给宝塔端 ==========
     total_cnt = sum(len(v) for v in group_bucket.values())
     print(f"✅采集完成，共提取 {total_cnt} 个频道（跳过粗筛检测，全量输出）")
     for gname, ch_list in group_bucket.items():
         print(f"  - {gname}: {len(ch_list)} 个频道")
-
     # 输出m3u8文件
     out_dir = os.path.dirname(os.path.abspath(__file__))
     output_m3u = ["#EXTM3U"]
@@ -105,6 +120,5 @@ def main():
     with open(m3u8_path, "w", encoding="utf-8") as f:
         f.write("\n".join(output_m3u))
     print(f"✅已输出 m3u8：{m3u8_path}")
-
 if __name__ == "__main__":
     main()
